@@ -171,7 +171,12 @@ body {
 }
 .flow-text {
 	font-size: 18px;
-	line-height: 100px;
+	line-height: 50px;
+	margin-bottom: 0;
+}
+.flow-sub-text {
+	font-size: 10px;
+	color: #aaa;
 }
 
 .arrow {
