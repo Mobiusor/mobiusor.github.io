@@ -1,0 +1,214 @@
+body {
+	color: #444;
+}
+
+.test {
+	background: #24292e !important;
+}
+
+.index-bg {
+	color: rgba(255,255,255,0.6);
+	background: url(imgs/simple-codelines.svg),#2b3137;
+	background-position: center 10%;
+	background-size: cover;
+	height: 600px;
+}
+
+.contact-bg {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #2b3137;
+	color: #ddd;
+}
+
+.about {
+	font-size: 20px;
+}
+
+.about-icon {
+	margin-right: 20px;
+}
+
+.section-title {
+	padding-bottom: 50px;
+}
+
+
+.mobius-logo {
+	background: url(imgs/logo.svg);
+	background-position: center;
+	background-size: cover;
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+/* .mobius-logo-main {
+	background: url(logo.svg);
+	background-position: center;
+	background-size: cover;
+	vertical-align: middle;
+	width: 80px;
+	height: 80px;
+	margin-right:20px;
+	display: inline-block;
+}
+
+.mobius-logo-title {
+	background: url(Assets/logo-reverse.svg);
+	background-position: center;
+	background-size: cover;
+	vertical-align: middle;
+	width: 800px;
+	height: 80px;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.mobius-logo-ani {
+	background: url(Assets/logo-reverse.svg);
+	background-position: center;
+	background-size: cover;
+	vertical-align: middle;
+	width: 800px;
+	height: 80px;
+	display: inline-block;
+} */
+
+/* .logo-ani-block {
+	height: 88px;
+	overflow: hidden;
+}
+.logo-ani-up {
+	position: relative;
+	bottom: -44px;
+}
+.logo-ani-down {
+	position: relative;
+	top: -44px;
+} */
+
+/* .main-title {
+	color: white;
+	display: inline-block;
+	height: 80px;
+	vertical-align: middle;
+	line-height: 80px;
+} */
+
+/* .main-title {
+	margin-bottom: 50px;
+} */
+/* .sub-title {
+	font-size: 24px;
+} */
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-container {
+	padding: 20px;
+}
+
+/* .services-bg {
+	background: url(Assets/lines-of-code.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+} */
+
+.services-block {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.services-icon-border {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 10%;
+}
+
+.services-icon {
+	font-size: 96px;
+	line-height: 200px !important;
+}
+.services-text {
+	font-size: 24px;
+	line-height: 75px;
+	margin-bottom: 0;
+}
+
+.services-sub-text {
+	padding-left: 50px;
+	padding-right: 40px;
+	font-size: 14px;
+	color: #aaa;
+}
+
+.flow-container {
+	padding: 20px;
+}
+.flow-block {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.flow-icon-border {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ccc;
+	border-radius: 10%;
+}
+
+.flow-icon {
+	font-size: 60px;
+	line-height: 150px !important;
+}
+.flow-text {
+	font-size: 18px;
+	line-height: 100px;
+}
+
+.arrow {
+	height: 150px;
+	margin-top: 20px;
+}
+
+.arrow-icon {
+	font-size: 48px;
+	line-height: 150px !important;
+}
+
+.content-container {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.product-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.image-container {
+	margin-bottom: 200px;
+	overflow: auto;
+}
+
+.page-foot {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover{
+	color: white;
+}
