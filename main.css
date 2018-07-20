@@ -16,6 +16,7 @@ body {
 }
 
 .contact-bg {
+	margin-top: 100px;
 	padding-bottom: 50px;
 	background: #2b3137;
 	color: #ddd;
@@ -144,15 +145,16 @@ body {
 	margin-bottom: 20px;
 }
 
-.product-img {
-	width: 100%;
-	height: auto;
-	margin-bottom: 20px;
+.case-introduction-title {
+	font-size: 32px;
 }
 
-.image-container {
-	margin-bottom: 200px;
-	overflow: auto;
+.case-introduction-text {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 5px;
+	font-size: 10px;
+	color: #aaa;
 }
 
 .page-foot {
