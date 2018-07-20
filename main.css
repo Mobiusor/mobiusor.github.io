@@ -194,11 +194,6 @@ body {
 	padding-bottom: 50px;
 }
 
-.carousel-container {
-	width: 450px;
-	height: 800px;
-}
-
 .product-img {
 	width: 100%;
 	height: auto;
@@ -216,7 +211,7 @@ body {
 }
 
 a {
-	color: inherit;
+	color: inherit !important;
 }
 
 a:hover{
