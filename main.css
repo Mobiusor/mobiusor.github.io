@@ -210,10 +210,10 @@ body {
 	margin-bottom: 40px;
 }
 
-a {
-	color: inherit !important;
+.contact-email {
+	color: inherit;
 }
 
-a:hover{
+.contact-email:hover{
 	color: white;
 }
