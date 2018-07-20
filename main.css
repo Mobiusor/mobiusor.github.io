@@ -16,7 +16,6 @@ body {
 }
 
 .contact-bg {
-	padding-top: 50px;
 	padding-bottom: 50px;
 	background: #2b3137;
 	color: #ddd;
@@ -31,6 +30,7 @@ body {
 }
 
 .section-title {
+	padding-top: 50px;
 	padding-bottom: 20px;
 }
 
@@ -133,14 +133,14 @@ body {
 }
 
 .carousel-app-container {
-	width: 360px;
-	height: 640px;
+	width: 270px;
+	height: 480px;
 	margin-bottom: 20px;
 }
 
 .carousel-client-container {
-	width: 853px;
-	height: 640px;
+	width: 768px;
+	height: 480px;
 	margin-bottom: 20px;
 }
 
