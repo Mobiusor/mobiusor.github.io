@@ -165,10 +165,14 @@ body {
 	height: auto;
 }
 
-a {
-	color: inherit !important;
+.contact-text {
+	line-height: 30px;
 }
 
-a:hover{
+.contact-email {
+	color: inherit;
+}
+
+.contact-email:hover{
 	color: white;
 }
