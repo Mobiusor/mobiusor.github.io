@@ -18,36 +18,35 @@
 					<i class="mobius-logo"></i>
 				</a>
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#products">Products</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
-					</li>
+					<div class="row">
+						<div class="col">
+							<li class="nav-item active">
+								<a class="nav-link" href="#home">Home</a>
+							</li>
+						</div>
+						<div class="col">
+							<li class="nav-item">
+								<a class="nav-link" href="#products">Products</a>
+							</li>
+						</div>
+						<div class="col">
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</div>
+					</div>
 				</ul>
 			</div>
 		</nav>
 
 		<div class="index-bg">
-			<!-- <div class="container content-container">
-				<h1 class="text-center main-title"><i class="mobius-logo-title"></i></h1>
-				<p class="text-center sub-title">Mobius 工作室为您提供优雅的软件定制服务</p>
-			</div> -->
-			<!-- <hr/>
 			<div class="container content-container">
-				<div class="logo-ani-block"><h1 class="text-center animated slideInUp logo-ani-up"><i class="mobius-logo-ani"></i></h1></div>
-				<div class="logo-ani-block"><h1 class="text-center animated slideInDown logo-ani-down"><i class="mobius-logo-ani"></i></h1></div>
-			</div> -->
-			<div class="container content-container">
-				<object class="logo-ani">
-					<embed src="imgs/animation.svg" />
+				<object>
+					<embed  class="logo-ani" src="imgs/animation.svg" />
 				</object>
 			</div>
 		</div>
-		<div class="container content-container">
+		<div class="container">
 			<h2 class="text-center section-title">服务范围</h2>
 			<div class="services-block">
 				<div class="row">
@@ -88,7 +87,7 @@
 		</div>
 
 		<hr />
-		<div class="container content-container">
+		<div class="container">
 			<h2 class="text-center section-title">服务流程</h2>
 			<div class="services-block">
 				<div class="row justify-content-md-center">
@@ -158,30 +157,195 @@
 
 		<hr/>
 
-		<div id="products" class="container content-container">
+		<div id="products" class="container">
 			<h2 class="text-center section-title">案例展示</h2>
 		</div>
-		<div class="container image-container">
-			<img src="./imgs/aerolink.png" class="product-img img-responsive" alt="Responsive image" />
-			<p class="text-center">Aerolink 自由飞行员撮合app及后台调度系统</p>
+		<div class="container-fluid content-container">
+			<div class="container case-introduction">
+				<p class="text-center case-introduction-title">AERO LINK</p>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-md-auto">
+					<div class="carousel-app-container">
+						<div id="case-01-app" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#case-01-app" data-slide-to="0" class="active"></li>
+								<li data-target="#case-01-app" data-slide-to="1"></li>
+								<li data-target="#case-01-app" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="carousel-app-container" src="imgs/case_01_app_01.png" alt="slide1">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-app-container" src="imgs/case_01_app_02.png" alt="slide2">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-app-container" src="imgs/case_01_app_03.png" alt="slide3">
+								</div>
+							</div>
+							<!-- Controls -->
+							<a class="carousel-control-prev" href="#case-01-app" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#case-01-app" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="carousel-client-container">
+						<div id="case-01-client" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#case-01-client" data-slide-to="0" class="active"></li>
+								<li data-target="#case-01-client" data-slide-to="1"></li>
+								<li data-target="#case-01-client" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="carousel-client-container" src="imgs/case_01_client_01.png" alt="slide1">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-client-container" src="imgs/case_01_client_02.png" alt="slide2">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-client-container" src="imgs/case_01_client_03.png" alt="slide3">
+								</div>
+							</div>
+							<!-- Controls -->
+							<a class="carousel-control-prev" href="#case-01-client" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#case-01-client" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container case-introduction">
+				<p class="text-left case-introduction-text">Aerolink为两类人群提供服务：私人飞机的拥有者和自由飞行员，双方通过web端或app进行搜索匹配，达成一致后签订临时雇佣合约。Aerolink的后台管理端提供强大而细致的控制功能，用户可以自由管理订单、飞行员以及客户的状态。</p>
+				<p class="text-left case-introduction-text">在接到客户的询问后我们的产品经理第一时间与客户取得了联系，经过数次沟通，梳理了客户的想法，构建了产品原型。在得到客户的肯定之后，考虑到客户对产品上线时间的迫切要求，开发团队采用了敏捷开发方案，多管齐下、并行开发、迅速迭代，仅用4个月时间就完成了这款由3个客户端和1个管理端构成的复杂系统的开发与测试工作，得到了客户的赞誉。</p>
+			</div>
 		</div>
-		<div class="container image-container">
-			<img src="./imgs/shirong.png" class="product-img img-responsive" alt="Responsive image" />
-			<p class="text-center">世融 互联网理财app及后台管理系统</p>
+
+		<div class="container-fluid content-container">
+			<div class="container case-introduction">
+				<p class="text-center case-introduction-title">世融理财</p>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-md-auto">
+					<div class="carousel-app-container">
+						<div id="case-02-app" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#case-02-app" data-slide-to="0" class="active"></li>
+								<li data-target="#case-02-app" data-slide-to="1"></li>
+								<li data-target="#case-02-app" data-slide-to="2"></li>
+								<li data-target="#case-02-app" data-slide-to="3"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="carousel-app-container" src="imgs/case_02_app_01.png" alt="slide1">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-app-container" src="imgs/case_02_app_02.png" alt="slide2">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-app-container" src="imgs/case_02_app_03.png" alt="slide3">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-app-container" src="imgs/case_02_app_04.png" alt="slide4">
+								</div>
+							</div>
+							<!-- Controls -->
+							<a class="carousel-control-prev" href="#case-02-app" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#case-02-app" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="carousel-client-container">
+						<div id="case-02-client" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#case-02-client" data-slide-to="0" class="active"></li>
+								<li data-target="#case-02-client" data-slide-to="1"></li>
+								<li data-target="#case-02-client" data-slide-to="2"></li>
+								<li data-target="#case-02-client" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="carousel-client-container" src="imgs/case_02_client_01.png" alt="slide1">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-client-container" src="imgs/case_02_client_02.png" alt="slide2">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-client-container" src="imgs/case_02_client_03.png" alt="slide3">
+								</div>
+								<div class="carousel-item">
+									<img class="carousel-client-container" src="imgs/case_02_client_04.png" alt="slide3">
+								</div>
+							</div>
+							<!-- Controls -->
+							<a class="carousel-control-prev" href="#case-02-client" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#case-02-client" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container case-introduction">
+				<p class="text-left case-introduction-text">世融理财是一家以车辆抵押、债权分标为主营业务的互联网金融公司，由业务员线下与车主达成车辆抵押借款合同，再通过后台系统将债权整理为理财产品放在平台上出售，app用户可以在平台购买不同的产品实现投资增值的目的。</p>
+				<p class="text-left case-introduction-text">世融理财的客户刚和我们团队联系时并没有形成明确的想法，只提出了一个大概的意向。针对这种情况，团队派出了高级产品经理数次前往北京、上海等地与客户进行线下沟通，对照客户的想法分析了市面上大部分竞品，最终明确了客户的需求，设计出了产品原型，项目得以顺利启动。能够将一个想法化为现实，离不开团队上下与客户的共同努力，我们期待有一天也能与您一同实现梦想。</p>
+			</div>
 		</div>
 
 		<div id="contact" class="contact-bg">
 			<div class="container">
 				<h2 class="text-center section-title">联系我们</h2>
-				<div class="row">
-					<div class="col-sm">
-						<p>Mobius 工作室确保您的想法与创意将被完整、流畅地呈现。</p>
-						<p>立刻联系我们进行免费咨询。</p>
+				<div class="row justify-content-sm-around">
+					<div class="col-sm-auto">
+						<p class="text-right contact-text">Mobius 工作室确保您的想法与创意将被完整、流畅地呈现。</p>
+						<p class="text-right contact-text">立刻联系我们进行免费咨询。</p>
+						<p class="text-right contact-text">现在咨询可享受最新优惠活动。</p>
 					</div>
-					<div class="col-sm offset-md-2 about">
+					<div class="col-sm-auto about">
 						<p> <a class="contact-email" href=mailto:info@mobiusstu.com><i class="fas fa-envelope about-icon"></i> info@mobiusstu.com </a></p>
 						<p> <i class="fas fa-phone-volume about-icon"></i> (+86)18519867107 </p>
 						<p> <i class="fab fa-weixin about-icon"></i> mobiusstu </p>
+					</div>
+					<div class="col-sm-auto">
+						<div class="qrcode">
+							<img class="img-fluid img-thumbnail" src="imgs/qrcode.jpg" alt="QR Code">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -194,5 +358,9 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<!-- cn -->
+		<!-- <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 	</body>
 </html>
