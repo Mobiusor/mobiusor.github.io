@@ -12,10 +12,11 @@ body {
 	background-position: center 10%;
 	background-size: cover;
 	height: 600px;
+	margin-bottom: 20px;
 }
 
 .contact-bg {
-	padding-top: 50px;
+	margin-top: 150px;
 	padding-bottom: 50px;
 	background: #2b3137;
 	color: #ddd;
@@ -30,7 +31,8 @@ body {
 }
 
 .section-title {
-	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 
@@ -44,65 +46,9 @@ body {
 	display: inline-block;
 }
 
-/* .mobius-logo-main {
-	background: url(logo.svg);
-	background-position: center;
-	background-size: cover;
-	vertical-align: middle;
-	width: 80px;
-	height: 80px;
-	margin-right:20px;
-	display: inline-block;
+.logo-ani {
+	padding-top: 50px;
 }
-
-.mobius-logo-title {
-	background: url(Assets/logo-reverse.svg);
-	background-position: center;
-	background-size: cover;
-	vertical-align: middle;
-	width: 800px;
-	height: 80px;
-	margin-top: 50px;
-	display: inline-block;
-}
-
-.mobius-logo-ani {
-	background: url(Assets/logo-reverse.svg);
-	background-position: center;
-	background-size: cover;
-	vertical-align: middle;
-	width: 800px;
-	height: 80px;
-	display: inline-block;
-} */
-
-/* .logo-ani-block {
-	height: 88px;
-	overflow: hidden;
-}
-.logo-ani-up {
-	position: relative;
-	bottom: -44px;
-}
-.logo-ani-down {
-	position: relative;
-	top: -44px;
-} */
-
-/* .main-title {
-	color: white;
-	display: inline-block;
-	height: 80px;
-	vertical-align: middle;
-	line-height: 80px;
-} */
-
-/* .main-title {
-	margin-bottom: 50px;
-} */
-/* .sub-title {
-	font-size: 24px;
-} */
 
 .center-block {
   display: block;
@@ -113,13 +59,6 @@ body {
 .services-container {
 	padding: 20px;
 }
-
-/* .services-bg {
-	background: url(Assets/lines-of-code.jpg);
-	background-position: center;
-	background-size: cover;
-	height: 200px;
-} */
 
 .services-block {
 	padding-top: 20px;
@@ -190,24 +129,46 @@ body {
 }
 
 .content-container {
-	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
-.product-img {
-	width: 100%;
-	height: auto;
+.carousel-app-container {
+	width: 270px;
+	height: 480px;
 	margin-bottom: 20px;
 }
 
-.image-container {
-	margin-bottom: 200px;
-	overflow: auto;
+.carousel-client-container {
+	width: 768px;
+	height: 480px;
+	margin-bottom: 20px;
+}
+
+.case-introduction-title {
+	font-size: 32px;
+}
+
+.case-introduction-text {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 5px;
+	font-size: 10px;
+	color: #aaa;
 }
 
 .page-foot {
 	margin-top: 20px;
 	margin-bottom: 40px;
+}
+
+.qrcode {
+	width: 120px;
+	height: auto;
+}
+
+.contact-text {
+	line-height: 30px;
 }
 
 .contact-email {
