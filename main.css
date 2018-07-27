@@ -11,9 +11,31 @@ body {
 	background: url(imgs/simple-codelines.svg),#2b3137;
 	background-position: center 10%;
 	background-size: cover;
-	height: 600px;
+	max-height: 600px;
 	margin-bottom: 20px;
 }
+
+/* @media (max-width: 576px;) {
+	.index-bg {
+		color: rgba(255,255,255,0.6);
+		background: url(imgs/simple-codelines.svg),#2b3137;
+		background-position: center 10%;
+		background-size: cover;
+		height: 300px;
+		margin-bottom: 20px;
+	}
+} */
+/*
+@media (min-width: 992px;) {
+	.index-bg {
+		color: rgba(255,255,255,0.6);
+		background: url(imgs/simple-codelines.svg),#2b3137;
+		background-position: center 10%;
+		background-size: cover;
+		height: 600px;
+		margin-bottom: 20px;
+	}
+} */
 
 .contact-bg {
 	margin-top: 150px;
@@ -66,26 +88,26 @@ body {
 }
 
 .services-icon-border {
-	width: 200px;
-	height: 200px;
+	width: 15vmax;
+	height: 15vmax;
 	border: 1px solid #ccc;
 	border-radius: 10%;
 }
 
 .services-icon {
-	font-size: 96px;
-	line-height: 200px !important;
+	font-size: 6vmax;
+	line-height: 15vmax !important;
 }
 .services-text {
-	font-size: 24px;
-	line-height: 75px;
+	font-size: 2.4vmax;
+	line-height: 6vmax;
 	margin-bottom: 0;
 }
 
 .services-sub-text {
-	padding-left: 50px;
-	padding-right: 40px;
-	font-size: 14px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1vmax;
 	color: #aaa;
 }
 
