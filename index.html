@@ -7,9 +7,11 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> -->
+
+	<link rel="stylesheet" href="utils/bootstrap.min.css">
+	<link rel="stylesheet" href="utils/fontawesome.css">
 	</head>
 	<body>
 		<nav id="home" class="navbar navbar-expand-lg navbar-dark bg-dark test">
@@ -50,7 +52,7 @@
 		<div class="container">
 			<h2 class="text-center section-title">服务范围</h2>
 			<div class="services-block">
-				<div class="row">
+				<div class="row justify-content-center">
 					<div class="col-md-4 services-container">
 						<div class="center-block services-icon-border"><p class="text-center"><i class="fas fa-desktop services-icon"></i></p></div>
 						<p class="text-center services-text">PC应用</p>
@@ -66,8 +68,6 @@
 						<p class="text-center services-text">后台管理系统</p>
 						<p class="text-center services-sub-text">专注后台管理，为您提供专业的库存、人力资源、数据等管理服务。</p>
 					</div>
-				</div>
-				<div class="row">
 					<div class="col-md-4 services-container">
 						<div class="center-block services-icon-border"><p class="text-center"><i class="fas fa-mobile-alt services-icon"></i></p></div>
 						<p class="text-center services-text">移动APP</p>
@@ -93,62 +93,62 @@
 			<h2 class="text-center section-title">服务流程</h2>
 			<div class="services-block">
 				<div class="row justify-content-md-center">
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-phone-volume flow-icon"></i></p></div>
 						<p class="text-center flow-text">联系我们</p>
 						<p class="text-center flow-sub-text">您可以通过网站下方的联系方式与我们取得联系，您也可以直接将您的需求通过邮件等形式发送给我们，我们会安排专人与您沟通。</p>
 					</div>
-					<div class="col-md-1 arrow">
+					<div class="col-lg-1 arrow">
 						<p class="text-center"><i class="fas fa-arrow-right arrow-icon"></i></p>
 					</div>
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-comments flow-icon"></i></p></div>
 						<p class="text-center flow-text">沟通需求</p>
 						<p class="text-center flow-sub-text">根据您的实际情况与要求，我们会与您进行线上或线下的沟通，资深产品经理会协助您进一步梳理您的想法。</p>
 					</div>
-					<div class="col-md-1 arrow">
+					<div class="col-lg-1 arrow">
 						<p class="text-center"><i class="fas fa-arrow-right arrow-icon"></i></p>
 					</div>
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-clipboard-list flow-icon"></i></p></div>
 						<p class="text-center flow-text">整理需求</p>
 						<p class="text-center flow-sub-text">当您的需求基本成型后，产品经理会编写需求说明书，在双方确认说明书内容后，开始制作并交付产品原型。</p>
 					</div>
-					<div class="col-md-1 arrow">
+					<div class="col-lg-1 arrow">
 						<p class="text-center"><i class="fas fa-arrow-right arrow-icon"></i></p>
 					</div>
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-pen-nib flow-icon"></i></p></div>
 						<p class="text-center flow-text">签订委托合同</p>
 						<p class="text-center flow-sub-text">您可以对产品原型提出进一步修改意见，满意后签署原型确认函并与我们签订委托合同，同时预付定金。</p>
 					</div>
 				</div>
 				<div class="row justify-content-md-center">
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-code flow-icon"></i></p></div>
 						<p class="text-center flow-text">项目启动</p>
 						<p class="text-center flow-sub-text">项目正式进入开发环节，我们将进行前端、后台的开发，以及各系统间的数据对接工作。</p>
 					</div>
-					<div class="col-md-1 arrow">
+					<div class="col-lg-1 arrow">
 						<p class="text-center"><i class="fas fa-arrow-right arrow-icon"></i></p>
 					</div>
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-sync-alt flow-icon"></i></p></div>
 						<p class="text-center flow-text">汇报进度</p>
 						<p class="text-center flow-sub-text">项目经理会每周以邮件的形式向您汇报项目进度，如您有需要，也可预约进行线上/线下会议。</p>
 					</div>
-					<div class="col-md-1 arrow">
+					<div class="col-lg-1 arrow">
 						<p class="text-center"><i class="fas fa-arrow-right arrow-icon"></i></p>
 					</div>
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-clipboard-check flow-icon"></i></p></div>
 						<p class="text-center flow-text">项目验收</p>
 						<p class="text-center flow-sub-text">在项目开发与测试完成后，我们会向您交付产品的测试版本供您试用。在解决完测试版存在的BUG后，我们将交付全部设计文档与源代码，并将产品部署至您的服务器。同时结清余款。</p>
 					</div>
-					<div class="col-md-1 arrow">
+					<div class="col-lg-1 arrow">
 						<p class="text-center"><i class="fas fa-arrow-right arrow-icon"></i></p>
 					</div>
-					<div class="col-md-2 flow-container">
+					<div class="col-lg-2 flow-container">
 						<div class="center-block flow-icon-border"><p class="text-center"><i class="fas fa-cloud flow-icon"></i></p></div>
 						<p class="text-center flow-text">后期维护</p>
 						<p class="text-center flow-sub-text">对于产品中存在的BUG我们提供终身免费修复，同时进行为期半年的义务维护以保证您的产品运行顺畅。在义务维护到期后您可以以优惠价格获得我们的产品维护与升级服务。</p>
@@ -358,12 +358,16 @@
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
 		<!-- cn -->
 		<!-- <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+		<script src="utils/jquery.min.js"></script>
+		<script src="utils/popper.min.js"></script>
+		<script src="utils/bootstrap.min.js"></script>
 	</body>
 </html>

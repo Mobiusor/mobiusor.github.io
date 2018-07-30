@@ -77,6 +77,13 @@ body {
 	color: #aaa;
 }
 
+.services-sub-text-mobile {
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 8px;
+	color: #aaa;
+}
+
 .flow-container {
 	padding: 20px;
 }
