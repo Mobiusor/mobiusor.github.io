@@ -88,26 +88,46 @@ body {
 }
 
 .services-icon-border {
-	width: 15vmax;
-	height: 15vmax;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 10%;
+}
+
+.services-icon-border-mobile {
+	width: 100px;
+	height: 100px;
 	border: 1px solid #ccc;
 	border-radius: 10%;
 }
 
 .services-icon {
-	font-size: 6vmax;
-	line-height: 15vmax !important;
+	font-size: 96px;
+	line-height: 200px !important;
 }
+
+.services-icon-mobile {
+	font-size: 64px;
+	line-height: 100px !important;
+}
+
 .services-text {
-	font-size: 2.4vmax;
-	line-height: 6vmax;
+	font-size: 24px;
+	line-height: 75px;
 	margin-bottom: 0;
 }
 
 .services-sub-text {
-	padding-left: 10%;
-	padding-right: 10%;
-	font-size: 1vmax;
+	padding-left: 75px;
+	padding-right: 75px;
+	font-size: 12px;
+	color: #aaa;
+}
+
+.services-sub-text-mobile {
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 8px;
 	color: #aaa;
 }
 
